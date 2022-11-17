@@ -1,0 +1,63 @@
+{
+  "tsserver.npm": "%AppData%/Roaming/npm",
+  "tsserver.typingsCacheLocation": "~/.cache/coc-tsserver",
+  "tsserver.log": "verbose",
+  "tsserver.trace.server": "verbose",
+  "tsserver.maxTsServerMemory": 10244,
+  "tsserver.formatOnType": false,
+  "tsserver.watchOptions": {
+    "watchFile": "useFsEvents",
+    "watchDirectory": "useFsEvents",
+    "fallbackPolling": "dynamicPriorityPolling"
+  },
+
+  "typescript.format.enabled": true,
+  "typescript.suggestionActions.enabled": true,
+
+  "tslint.autoFixOnSave": true,
+  "tslint.suppressWhileTypeErrorsPresent": false,
+
+
+  "codeLens.enable": false,
+  "codeLens.separator": "‣",
+
+  "list.indicator": "❯",
+
+  "diagnostic.enable": true,
+  "diagnostic.errorSign": "⨯",
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.virtualText": true,
+  "diagnostic.enableSign": true,
+  "diagnostic.enableHighlightLineNumber": true,
+
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "cs",
+		"graphql",
+    "go",
+    "javascript",
+    "javascriptreact",
+    "lua",
+    "typescript",
+    "typescriptreact",
+		"css",
+		"html"
+  ],
+
+  "prettier.disableSuccessMessage": false,
+
+  "signature.preferShownAbove": true,
+  "suggest.maxCompleteItemCount": 10,
+
+  "javascript.validate.enable": true,
+
+  "Lua.diagnostics.globals": ["vim"]
+
+  /*"languageserver": {
+    "efm": {
+      "command": "efm-langserver",
+      "args": [],
+      "filetypes": ["lua", "vim", "markdown"]
+    }
+  }*/
+}
