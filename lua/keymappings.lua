@@ -35,3 +35,5 @@ map("n", "]T", ":tablast<cr>")
 
 map("v", "<leader>y", "\"*yy")
 map("n", "<leader>p", "\"*p")
+map("n", "<leader>qc", ":call setqflist([], 'r') <CR>")
+map("n", "<leader>qf", ":cfdo | :bd <CR>")

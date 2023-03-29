@@ -1,5 +1,5 @@
 {
-  "tsserver.npm": "%AppData%/Roaming/npm",
+  "tsserver.npm": "~/.nvm/versions/node/v18.12.1/bin/npm",
   "tsserver.typingsCacheLocation": "~/.cache/coc-tsserver",
   "tsserver.log": "verbose",
   "tsserver.trace.server": "verbose",
@@ -29,6 +29,7 @@
   "diagnostic.virtualText": true,
   "diagnostic.enableSign": true,
   "diagnostic.enableHighlightLineNumber": true,
+	"git.enabledGlobalStatus": false,
 
   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
   "coc.preferences.formatOnSaveFiletypes": [
@@ -51,7 +52,10 @@
 
   "javascript.validate.enable": true,
 
-  "Lua.diagnostics.globals": ["vim"]
+  "Lua.diagnostics.globals": [
+    "vim"
+  ],
+  "snippets.ultisnips.pythonPrompt": false
 
   /*"languageserver": {
     "efm": {

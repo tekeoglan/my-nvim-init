@@ -1,11 +1,11 @@
 local u = require("utils")
 local t, check_back_space = u.t, u.check_back_space
 
-vim.g.coc_node_path = "C:/Program Files/nodejs/node.exe"
+vim.g.coc_node_path = "~/.nvm/versions/node/v18.12.1/bin/node"
 vim.g.coc_enable_locationlist = 1
 vim.g.coc_global_extensions = {
-  "coc-json", "coc-marketplace", "coc-prettier", "coc-snippets", "coc-syntax", "coc-tslint-plugin", "coc-tsserver",
-  "coc-yank"
+  "coc-json", "coc-marketplace", "coc-prettier", "coc-snippets", "coc-syntax", "coc-pairs", "coc-tslint-plugin", "coc-tsserver",
+  "coc-yank", "coc-css", "coc-html"
 }
 
 u.keymap("i", "<tab>", "coc#pum#visible() ? coc#pum#next(1) : '<tab>'", {noremap=true, silent = true , expr = true})

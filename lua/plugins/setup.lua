@@ -34,7 +34,7 @@ return require("packer").startup(function(use)
 
   use {"junegunn/fzf.vim", requires = {"junegunn/fzf"}, run = function() vim.fn["fzf#install"]() end}
   use {"neoclide/coc.nvim", branch = "release"}
-  use {"lewis6991/gitsigns.nvim", requires = {"nvim-lua/plenary.nvim"}}
+  -- use {"lewis6991/gitsigns.nvim", requires = {"nvim-lua/plenary.nvim"}}
 
   -- use "neovim/nvim-lspconfig"
   -- use "glepnir/lspsaga.nvim"

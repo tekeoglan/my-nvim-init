@@ -20,6 +20,6 @@ require("plugins.nvim-tree")
 require("plugins.nvim-comment")
 require("plugins.fzf")
 
-require("plugins.gitsigns")
+-- require("plugins.gitsigns")
 require("plugins.colorizer")
 require("plugins.vim-go")
