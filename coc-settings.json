@@ -1,5 +1,5 @@
 {
-  "tsserver.npm": "~/.nvm/versions/node/v18.12.1/bin/npm",
+  "tsserver.npm": "/usr/bin/npm",
   "tsserver.typingsCacheLocation": "~/.cache/coc-tsserver",
   "tsserver.log": "verbose",
   "tsserver.trace.server": "verbose",
@@ -55,7 +55,18 @@
   "Lua.diagnostics.globals": [
     "vim"
   ],
-  "snippets.ultisnips.pythonPrompt": false
+
+  "snippets.ultisnips.pythonPrompt": false,
+	  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.work", "go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"],
+      "initializationOptions": {
+        "usePlaceholders": true
+      }
+    }
+  }
 
   /*"languageserver": {
     "efm": {

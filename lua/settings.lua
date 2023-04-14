@@ -34,15 +34,18 @@ vim.o.hlsearch = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
-vim.bo.expandtab = true
-vim.bo.tabstop = 2
-vim.bo.shiftwidth = 2
+-- vim.bo.expandtab = true
+-- vim.bo.tabstop = 2
+-- vim.bo.shiftwidth = 2
+vim.cmd("set expandtab")
 vim.cmd("set ts=2") -- Insert 2 spaces for a tab
 vim.cmd("set sw=2") -- Change the number of space characters inserted for indentation
 vim.cmd([[set smartindent]])
 vim.cmd([[set number relativenumber]])
 vim.o.shiftround = true
 -- vim.o.diffopt = vim.o.diffopt .. "vertical"
+
+vim.cmd([[au FileType c,c++,h,hpp,go setlocal ts=4 sw=4]])
 
 vim.o.scrolloff = 5
 vim.cmd("set inccommand=split") -- Make substitution work in realtime
