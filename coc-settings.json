@@ -2,8 +2,7 @@
   "tsserver.npm": "/usr/bin/npm",
   "tsserver.typingsCacheLocation": "~/.cache/coc-tsserver",
   "tsserver.log": "verbose",
-  "tsserver.trace.server": "verbose",
-  "tsserver.maxTsServerMemory": 10244,
+  "tsserver.trace.server": "verbose", "tsserver.maxTsServerMemory": 10244,
   "tsserver.formatOnType": false,
   "tsserver.watchOptions": {
     "watchFile": "useFsEvents",
@@ -42,7 +41,11 @@
     "typescript",
     "typescriptreact",
 		"css",
-		"html"
+		"html",
+    "c",
+    "cpp",
+    "h",
+    "hpp"
   ],
 
   "prettier.disableSuccessMessage": false,

@@ -5,7 +5,7 @@ vim.g.coc_node_path = "/usr/bin/node"
 vim.g.coc_enable_locationlist = 1
 vim.g.coc_global_extensions = {
   "coc-json", "coc-marketplace", "coc-prettier", "coc-snippets", "coc-syntax", "coc-pairs", "coc-tslint-plugin", "coc-tsserver",
-  "coc-yank", "coc-css", "coc-html", "coc-go",
+  "coc-yank", "coc-css", "coc-html", "coc-go", "coc-clangd",
 }
 
 u.keymap("i", "<tab>", "coc#pum#visible() ? coc#pum#next(1) : '<tab>'", {noremap=true, silent = true , expr = true})
